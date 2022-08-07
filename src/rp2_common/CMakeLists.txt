@@ -58,6 +58,8 @@ if (NOT PICO_BARE_METAL)
     pico_add_subdirectory(tinyusb)
     pico_add_subdirectory(pico_stdio_usb)
 
+    pico_add_subdirectory(mbedtls)
+
     pico_add_subdirectory(cyw43_driver)
     pico_add_subdirectory(pico_lwip)
     pico_add_subdirectory(pico_cyw43_arch)
